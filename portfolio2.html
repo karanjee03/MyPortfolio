@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Karan Jee's Portfolio - Computer Science Student">
+  <title>Karan Jee | Portfolio</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="portfolio2.css">
+  <link rel="stylesheet" href="portfolio/responsive.css" media="screen and (max-width: 768px)">
+</head>
+
+<body>
+  <!-- Header/Navigation -->
+  <header class="header">
+    <nav class="nav">
+      <button onclick="showSection('home')" class="nav-btn active" id="home-btn">
+        <i class="fas fa-home"></i> Home
+      </button>
+      <button onclick="showSection('about')" class="nav-btn" id="about-btn">
+        <i class="fas fa-user"></i> About
+      </button>
+      <button onclick="showSection('contact')" class="nav-btn" id="contact-btn">
+        <i class="fas fa-envelope"></i> Contact
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Content Sections -->
+  <main class="main-content">
+    <!-- Home Section -->
+    <section id="home-section" class="content-section active-section">
+      <div class="profile-container">
+        <div class="profile-image">
+          <img src="myimage.png" alt="Karan Jee" class="profile-pic">
+        </div>
+        <div class="profile-content">
+          <h1 class="profile-name">KARAN JEE</h1>
+          <p class="profile-bio">
+            Hi! I'm a student who loves computer science, maths, and physics. 
+            I'm always curious, love solving problems, and enjoy learning how 
+            things work—especially in tech!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-section" class="content-section">
+      <div class="about-grid">
+        <!-- About Me -->
+        <div class="about-card about-me">
+          <div class="about-icon">👋</div>
+          <p class="about-text">
+            Hi! I'm a computer science student from Pakistan with a deep interest 
+            in programming, maths, and physics. I love solving problems, building 
+            small projects, and learning how technology works.
+          </p>
+        </div>
+
+        <!-- Education -->
+        <div class="about-card education">
+          <h2 class="section-title">Education</h2>
+          <ul class="education-list">
+            <li>Matric Completed ✅ 2023</li>
+            <li>FSc(ICS) Completed ✅ 2025</li>
+            <li>BS Computer Science</li>
+            <li>[Your University Name], Pakistan</li>
+            <li>Expected Graduation: [Year]</li>
+          </ul>
+        </div>
+
+        <!-- Experience -->
+        <div class="about-card experience">
+          <h2 class="section-title">Experience</h2>
+          <ul class="experience-list">
+            <li>Built small projects in Python, C++, HTML/CSS</li>
+            <li>Solved coding problems on platforms like LeetCode</li>
+            <li>Worked on a personal portfolio website</li>
+          </ul>
+        </div>
+
+        <!-- Goals -->
+        <div class="about-card goals">
+          <h2 class="section-title">Goals</h2>
+          <p class="goals-text">
+            I'm aiming to grow as a developer and explore fields like AI and 
+            software engineering, while continuing to learn and build cool things.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-section" class="content-section">
+      <h2 class="contact-title">📬 Let's Connect!</h2>
+      
+      <div class="contact-info">
+        <a href="mailto:karangee.1803@gmail.com" class="contact-link">
+          <i class="fas fa-envelope"></i> karanjee.1803@gmail.com
+        </a>
+        
+        <div class="contact-item">
+          <i class="fas fa-phone"></i> +92 3261245829
+        </div>
+        
+        <a href="https://www.linkedin.com/in/karan-jee-894a9a371" target="_blank" rel="noopener noreferrer" class="contact-link">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        
+        <a href="https://github.com/karanjee03" target="_blank" rel="noopener noreferrer" class="contact-link">
+          <i class="fab fa-github-square"></i> GitHub
+        </a>
+        
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i> RYK/Lahore, PUNJAB
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="porfolio2.js"></script>
+</body>
+</html>
